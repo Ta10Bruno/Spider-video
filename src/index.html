@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="stylesheet" href="../src/css/reponsivo.css">
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./video/abertura.mp4">
+        </video>
+    </div>
+
+
+  
+    <header class="cabecalho">
+        <a>
+            <img src="../src/img/logo-1.png" alt="logo-spider" class="logo">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+
+            <img class="imagem-titulo" src="./img/titulo.png">
+
+            <p class="descricao">Spider-Man: The Animated Series (No Brasil, Homem-Aranha e em Portugal, Spider-Man - O Homem-Aranha) é uma animação do Homem-Aranha. Foi o desenho mais bem sucedido do aracnídeo já feito até hoje. O produtor/editor foi John Semper Jr, e foi produzido pela Marvel Productions, de 1994 a 1998. Stan Lee (criador do Homem-Aranha) trabalhou na animação; como produtor executivo, revisor e consultor das histórias. No total, o desenho possui 65 episódios, divididos em cinco temporadas.No Brasil, o desenho foi exibido pela extinta Fox Kids em 1 de julho de 1995 e pela Rede Globo. Em Portugal, o desenho foi exibido pela SIC.</p>
+
+            <button class="botao">Veja o Trailer</button>
+
+        </div>
+
+        <img src="./img/miles.png" class="spider">
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/WU6YyptI7OY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
